@@ -1,0 +1,20 @@
+@import "./variables";
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    @media (min-width: $mobile-landscape-breakpoint) {
+        max-width: $mobile-landscape-max-width;
+    }
+    @media (min-width: $tablet-breakpoint) {
+        max-width: $tablet-max-width;
+    }
+    @media (min-width: $tablet-landscape-breakpoint) {
+        max-width: $tablet-landscape-max-width;
+    }
+    @media (min-width: $computer-breakpoint) {
+        max-width: $computer-max-width;
+    }
+}

@@ -1,1 +1,27 @@
-<router-outlet></router-outlet>
+<main>
+    <mat-toolbar color="primary">
+        <mat-toolbar-row class="container">
+            <button mat-icon-button (click)="onToggle()" class="display-tablet">
+                <mat-icon>menu</mat-icon>
+            </button>
+            <a [routerLink]="['/']" class="brand">Jonathan Bernard</a>
+            <a mat-button [routerLink]="['/portfolio']">Portfolio</a>
+            <a mat-button [routerLink]="['/about']">About</a>
+            <a mat-button [routerLink]="['/contact']">Contact</a>
+            <button mat-icon-button>
+                <mat-icon>account_circle</mat-icon>
+            </button>
+        </mat-toolbar-row>
+    </mat-toolbar>
+    <mat-sidenav-container>
+        <mat-sidenav #sidenav>
+            <a mat-button [routerLink]="['/portfolio']">Portfolio</a>
+            <a mat-button [routerLink]="['/about']">About</a>
+            <a mat-button [routerLink]="['/contact']">Contact</a>
+        </mat-sidenav>
+        <mat-sidenav-content>
+            <app-banner></app-banner>
+            <router-outlet></router-outlet>
+        </mat-sidenav-content>
+    </mat-sidenav-container>
+</main>

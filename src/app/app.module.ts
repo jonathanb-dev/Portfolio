@@ -18,16 +18,18 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { AppComponent } from './app.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { HomeComponent } from './components/home/home.component';
+import { BannerComponent } from './components/shared/banner/banner.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NotFoundPageComponent,
-    HomePageComponent,
-    HomeComponent,
     EmptyLayoutComponent,
     LayoutComponent,
-    NotFoundComponent
+    NotFoundPageComponent,
+    HomePageComponent,
+    NotFoundComponent,
+    HomeComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
