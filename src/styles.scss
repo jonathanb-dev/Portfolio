@@ -3,10 +3,8 @@
 @import "./app/styles/_utilities";
 
 :root {
-    --black-color: #000; // 0, 0, 0
     --lighter-black-color: #101010; // 16, 16, 16
     --darker-white-color: #f8f8f8; // 248, 248, 248
-    --white-color: #fff; // 255, 255, 255
 }
 body {
     background-color: var(--darker-white-color);
@@ -18,4 +16,15 @@ body {
 }
 main {
     flex: 1;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+h2,
+h3 {
+    font-family: "Bebas Neue";
+    font-weight: 400;
 }

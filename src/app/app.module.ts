@@ -19,6 +19,11 @@ import { AppComponent } from './app.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { HomeComponent } from './components/home/home.component';
 import { BannerComponent } from './components/shared/banner/banner.component';
+import { AboutMeComponent } from './components/home/about-me/about-me.component';
+import { InformationsComponent } from './components/home/informations/informations.component';
+import { SkillsComponent } from './components/home/skills/skills.component';
+import { SkillListComponent } from './components/home/skills/skill-list/skill-list.component';
+import { SkillComponent } from './components/home/skills/skill-list/skill/skill.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +34,12 @@ import { BannerComponent } from './components/shared/banner/banner.component';
     HomePageComponent,
     NotFoundComponent,
     HomeComponent,
-    BannerComponent
+    BannerComponent,
+    AboutMeComponent,
+    InformationsComponent,
+    SkillsComponent,
+    SkillListComponent,
+    SkillComponent
   ],
   imports: [
     BrowserModule,

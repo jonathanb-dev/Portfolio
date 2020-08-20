@@ -18,3 +18,17 @@
         max-width: $computer-max-width;
     }
 }
+.grid {
+    display: grid;
+}
+.flex {
+    display: flex;
+}
+.flex-column {
+    @extend .flex;
+    flex-direction: column;
+}
+.no-style-list {
+    list-style-type: none;
+    padding: 0;
+}
