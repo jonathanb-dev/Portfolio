@@ -5,6 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // Custom modules
 import { AngularMaterialModule } from './angular-material.module';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 // Layouts
 import { EmptyLayoutComponent } from './layouts/empty-layout/empty-layout.component';
@@ -45,7 +46,8 @@ import { SkillComponent } from './components/home/skills/skill-list/skill/skill.
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    AngularMaterialModule
+    AngularMaterialModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

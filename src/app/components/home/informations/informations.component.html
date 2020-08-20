@@ -1,10 +1,29 @@
 <aside>
     <mat-card>
+        <h3>Informations</h3>
         <ul>
-            <li>Wavre, Belgium</li>
-            <li>jonathansemal@gmail.com</li>
-            <li>github.com/jonathanb-dev</li>
-            <li>Download my CV</li>
+            <li>
+                <fa-icon [icon]="faMapMarkerAlt"></fa-icon>Wavre, Belgium
+            </li>
+            <li>
+                <a href="mailto:jonathansemal@gmail.com" title="Send me an e-mail">
+                    <fa-icon [icon]="faPaperPlane"></fa-icon>jonathansemal@gmail.com
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/jonathanbernard-developer/" title="My LinkedIn">
+                    <fa-icon [icon]="faLinkedin"></fa-icon>LinkedIn
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/jonathanb-dev" title="My Github">
+                    <fa-icon [icon]="faGithub"></fa-icon>Github
+                </a>
+            </li>
         </ul>
+        <a href="#" mat-button color="primary" title="Download my CV (.PDF)">
+            <fa-icon [icon]="faFileDownload"></fa-icon>Download my CV
+        </a>
+        <div class="clearfix"></div>
     </mat-card>
 </aside>

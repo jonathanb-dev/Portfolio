@@ -8,9 +8,12 @@
             <a mat-button [routerLink]="['/portfolio']">Portfolio</a>
             <a mat-button [routerLink]="['/about']">About</a>
             <a mat-button [routerLink]="['/contact']">Contact</a>
-            <button mat-icon-button>
-                <mat-icon>account_circle</mat-icon>
-            </button>
+            <a href="https://www.linkedin.com/in/jonathanbernard-developer/" mat-icon-button title="LinkedIn">
+                <fa-icon [icon]="faLinkedin"></fa-icon>
+            </a>
+            <a href="https://github.com/jonathanb-dev" mat-icon-button title="Github">
+                <fa-icon [icon]="faGithub"></fa-icon>
+            </a>
         </mat-toolbar-row>
     </mat-toolbar>
     <mat-sidenav-container>
