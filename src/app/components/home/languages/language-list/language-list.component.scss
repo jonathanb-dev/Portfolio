@@ -1,0 +1,5 @@
+@import "../../../../styles/_utilities";
+
+ul {
+    @extend .no-style-list;
+}

@@ -1,0 +1,6 @@
+<div>
+    <h4>{{experience.enterprise}}, {{experience.location}} — {{experience.position}}</h4>
+    <p>From {{experience.fromDate | date: 'd MMMM yyyy'}} to {{experience.toDate | date: 'd MMMM yyyy'}}</p>
+    <p>{{experience.description}}</p>
+    <p><strong>Front-end:</strong> {{getFrontEndTechnologies()}}.<br><strong>Back-end:</strong> {{getBackEndTechnologies()}}.</p>
+</div>

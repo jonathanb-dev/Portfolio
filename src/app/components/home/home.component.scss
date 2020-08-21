@@ -1,8 +1,12 @@
+@import "../../styles/_variables";
 $gap: 30px;
 
 .grid {
     gap: $gap;
-    grid-template-columns: 65% 35%;
+    grid-template-columns: 1fr;
+    @media (min-width: $tablet-landscape-breakpoint) {
+        grid-template-columns: 65% 35%;
+    }
 }
 .flex-column {
     & *:not(:last-child) {

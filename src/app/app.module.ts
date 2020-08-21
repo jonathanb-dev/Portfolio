@@ -21,10 +21,16 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 import { HomeComponent } from './components/home/home.component';
 import { BannerComponent } from './components/shared/banner/banner.component';
 import { AboutMeComponent } from './components/home/about-me/about-me.component';
+import { ExperiencesComponent } from './components/home/experiences/experiences.component';
+import { ExperienceListComponent } from './components/home/experiences/experience-list/experience-list.component';
+import { ExperienceComponent } from './components/home/experiences/experience-list/experience/experience.component';
 import { InformationsComponent } from './components/home/informations/informations.component';
 import { SkillsComponent } from './components/home/skills/skills.component';
 import { SkillListComponent } from './components/home/skills/skill-list/skill-list.component';
 import { SkillComponent } from './components/home/skills/skill-list/skill/skill.component';
+import { LanguagesComponent } from './components/home/languages/languages.component';
+import { LanguageListComponent } from './components/home/languages/language-list/language-list.component';
+import { LanguageComponent } from './components/home/languages/language-list/language/language.component';
 
 @NgModule({
   declarations: [
@@ -37,10 +43,16 @@ import { SkillComponent } from './components/home/skills/skill-list/skill/skill.
     HomeComponent,
     BannerComponent,
     AboutMeComponent,
+    ExperiencesComponent,
+    ExperienceListComponent,
+    ExperienceComponent,
     InformationsComponent,
     SkillsComponent,
     SkillListComponent,
-    SkillComponent
+    SkillComponent,
+    LanguagesComponent,
+    LanguageListComponent,
+    LanguageComponent
   ],
   imports: [
     BrowserModule,
