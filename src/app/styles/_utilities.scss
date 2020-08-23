@@ -14,8 +14,11 @@
     @media (min-width: $tablet-landscape-breakpoint) {
         max-width: $tablet-landscape-max-width;
     }
-    @media (min-width: $computer-breakpoint) {
-        max-width: $computer-max-width;
+    @media (min-width: $small-computer-breakpoint) {
+        max-width: $small-computer-max-width;
+    }
+    @media (min-width: $medium-computer-breakpoint) {
+        max-width: $medium-computer-max-width;
     }
 }
 .grid {

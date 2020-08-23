@@ -2,8 +2,9 @@
 $gap: 30px;
 
 .grid {
-    gap: $gap;
+    column-gap: $gap;
     grid-template-columns: 1fr;
+    padding: 100px 0;
     @media (min-width: $tablet-landscape-breakpoint) {
         grid-template-columns: 65% 35%;
     }

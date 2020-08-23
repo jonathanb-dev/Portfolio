@@ -4,7 +4,9 @@
 
 :root {
     --lighter-black-color: #101010; // 16, 16, 16
+    --white-color: #fff; // 255, 255, 255
     --darker-white-color: #f8f8f8; // 248, 248, 248
+    --darker-white-color2: #e8e8e8; // 232, 232, 232
 }
 body {
     background-color: var(--darker-white-color);
@@ -27,6 +29,13 @@ h2,
 h3 {
     font-family: "Bebas Neue";
     font-weight: 400;
+}
+// Angular material
+.mat-card {
+    border: 1px solid var(--darker-white-color2);
+    &:not([class*=mat-elevation-z]) {
+        box-shadow: none;
+    }
 }
 // Font awesome
 .ng-fa-icon {

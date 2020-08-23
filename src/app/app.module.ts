@@ -10,6 +10,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 // Layouts
 import { EmptyLayoutComponent } from './layouts/empty-layout/empty-layout.component';
 import { LayoutComponent } from './layouts/layout/layout.component';
+import { FooterComponent } from './layouts/footer/footer.component';
 
 // Pages
 import { NotFoundPageComponent } from './pages/not-found-page/not-found-page.component';
@@ -37,6 +38,7 @@ import { LanguageComponent } from './components/home/languages/language-list/lan
     AppComponent,
     EmptyLayoutComponent,
     LayoutComponent,
+    FooterComponent,
     NotFoundPageComponent,
     HomePageComponent,
     NotFoundComponent,
