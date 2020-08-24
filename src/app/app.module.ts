@@ -32,6 +32,7 @@ import { SkillComponent } from './components/home/skills/skill-list/skill/skill.
 import { LanguagesComponent } from './components/home/languages/languages.component';
 import { LanguageListComponent } from './components/home/languages/language-list/language-list.component';
 import { LanguageComponent } from './components/home/languages/language-list/language/language.component';
+import { LatestProjectComponent } from './components/home/latest-project/latest-project.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { LanguageComponent } from './components/home/languages/language-list/lan
     SkillComponent,
     LanguagesComponent,
     LanguageListComponent,
-    LanguageComponent
+    LanguageComponent,
+    LatestProjectComponent
   ],
   imports: [
     BrowserModule,
